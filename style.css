@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.main_dashboard {
+    display: block;
+    background: #0B3448;
+    height: fit-content;
+    position: fixed;
+    width: 322px;
+    height: 100%;
+    transition:0.5s;
+    overflow: hidden;
+}
+.uniser_logo {
+    position: relative;
+    display: block;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.first_box {
+    margin-top: 25px;
+    background:  rgba(255, 255, 255, 0.1);
+}
+.fa-solid {
+    color: #2F89B6;
+}
+.dashboard_link{
+    padding-left: 15px;
+}
+.dashboard_box:hover{
+    background:  rgba(255, 255, 255, 0.1);   
+}
+.dashboard_box{ 
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 33px;
+    width: 258px;
+    border-radius: 7px;   
+}
+
+/*                       dashboard ends               */
+.uniser_logo.active {
+    width: 15%;
+    margin-left: -2px;
+}
+ 
+.main
+{
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px;
+    min-height: 100vh;
+    background: #f5f5f5;
+    transition: 0.5s;
+}
+.main.active
+{
+    width: calc(100% - 60px);
+    left: 60px;
+}
+.main .topbar
+{
+    width: 100%;
+    background:#fff;
+    height: 60px;
+    padding: 0 10px;
+    display: flex;
+}
+.toggle
+{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.toggle::before
+{
+    content: '\f0c9';
+    font-family: fontAwesome;
+    position:absolute;
+    width: 100%;
+    height:100%;
+    line-height: 60px;
+    font-size: 24px;
+    text-align: center;
+    color:#0B3448;
+    
+}
+.istifadeci_sayi{
+    margin-left: 20px;
+}
+.search{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: -250px;
+    box-sizing: border-box;
+    width: 211px;
+    height: 40px;
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #C6E2EB;
+    border-radius: 24px;
+
+}  
+.language {
+    margin-right: 40px;
+}
+.ad_soyad {
+    margin-right: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.topbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+.topbar1 , .topbar2 {
+    display: flex;
+    align-items: center;
+}
+.topbar2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;    
+}
+.fa-angle-down {
+    color: black;
+}
+.user
+{
+    margin-right: 15px;
+    position:relative;
+    min-width: 50px;
+    width: 50px;
+    height: 50px;
+  
+}
+.user img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+/* .user_down {
+    position: absolute;
+    margin-right: 20px;
+} */
+
+
+.balans_img{
+    padding-left: 5px;
+}
+
+
+/* responsivity starts */
+
+@media screen and (max-width: 900px) {
+    .search {
+        display: none;
+    }
+    .istifadeci_sayi {
+        display: none;
+    }
+    .topbar , .topbar2 {
+        display: flex;
+        flex-direction: row;
+    }
+    .ad_soyad {
+        display: none;
+    }
+}

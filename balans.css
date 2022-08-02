@@ -1,0 +1,342 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.main_dashboard {
+    display: block;
+    background: #0B3448;
+    height: fit-content;
+    position: fixed;
+    width: 322px;
+    height: 100%;
+    transition:0.5s;
+    overflow: hidden;
+}
+.uniser_logo {
+    position: relative;
+    display: block;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.first_box {
+    margin-top: 25px;
+}
+.fa-solid {
+    color: #2F89B6;
+}
+.balans_img{
+    padding-left: 5px;
+}
+.dashboard_link{
+    padding-left: 15px;
+}
+.dashboard_box:hover{
+    background:  rgba(255, 255, 255, 0.1);   
+}
+.dashboard_box{ 
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 33px;
+    width: 258px;
+    border-radius: 7px;   
+}
+.highlited_box {
+    background:  rgba(255, 255, 255, 0.1);   
+}
+
+/*                       dashboard ends               */
+.uniser_logo.active {
+    width: 15%;
+    margin-left: -2px;
+}
+ 
+.main
+{
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px;
+    min-height: 100vh;
+    background: #E5E5E5;
+    transition: 0.5s;
+}
+.main.active
+{
+    width: calc(100% - 60px);
+    left: 60px;
+}
+.main .topbar
+{
+    width: 100%;
+    background:#fff;
+    height: 60px;
+    padding: 0 10px;
+    display: flex;
+}
+.toggle
+{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.toggle::before
+{
+    content: '\f0c9';
+    font-family: fontAwesome;
+    position:absolute;
+    width: 100%;
+    height:100%;
+    line-height: 60px;
+    font-size: 24px;
+    text-align: center;
+    color:#0B3448;
+    
+}
+.istifadeci_sayi{
+    margin-left: 20px;
+}
+.search{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: -250px;
+    box-sizing: border-box;
+    width: 211px;
+    height: 40px;
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #C6E2EB;
+    border-radius: 24px;
+
+}  
+.language {
+    margin-right: 40px;
+}
+.ad_soyad {
+    margin-right: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.topbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+.topbar1 , .topbar2 {
+    display: flex;
+    align-items: center;
+}
+.topbar2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;    
+}
+.fa-angle-down {
+    color: black;
+}
+.user
+{
+    margin-right: 15px;
+    position:relative;
+    min-width: 50px;
+    width: 50px;
+    height: 50px;
+  
+}
+.user img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+/* top_bar ends */
+.imtahanlarimiz_main{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.imtahanlarimiz_container{
+height: 416px;
+width: 1000px;
+border-radius: 15px;
+border: linear-gradient(0deg, #D9D9D9, #D9D9D9);
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+}
+
+.imtahanlar_emeliyyatlar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imtahanlar {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    padding-left: 45px;
+    padding-top: 25px;
+}
+.emeliyyatlar , .excel{
+    border-radius: 10px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+  }
+  .emeliyyatlar{
+    border: 1px solid #2F89B6;
+    background: #2F89B6;
+    color: white;
+    margin-right: 25px;
+    margin-top: 10px;
+  }
+  .emeliyyatlar:hover{
+    color:#2F89B6;
+    background: white;
+  }
+  .emeliyyatlar:hover .emeliyyatlar_i{
+    color: #2F89B6;
+  }
+  .emeliyyatlar_i {
+    color: white;
+  }
+
+
+  .duration{
+    margin-left: -120px;
+  }
+
+  .melumat_line{
+    color: #2F89B6;;
+    width: 920px;
+    margin-left: 40px;
+  }
+
+  .imtahan_melumat , .imtahan_melumat1{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+    height: 40px;
+  }
+  .imtahan_melumat {
+    margin-left:  40px;
+    margin-top: 30px;
+    background: #E9F8FD;
+    font-weight: bold;
+  }
+  .imtahan_melumat1 {
+    margin-left:40px;
+    margin-top: 0px;
+  }
+  .date {
+    margin-right: 70px;
+  }
+  .date1 {
+    margin-right:40px;
+  }
+
+
+
+  .balans_container{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 90px;
+    width: 953px;
+    border-radius: 15px;
+    background: #0F7DB5;
+  }
+  .balans_and_value {
+    align-items: center;
+    display: flex;
+  }
+  .balans {
+    font-size: 16px;
+    font-weight: 700;
+    color: #A2E0FF;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .balans_value {
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    padding-left: 5px;
+  }
+
+  .balansi_artir{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    background: white;
+    border: 1px solid #0F7DB5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 48px;
+    border-radius: 10px;
+}
+.balansi_artir_text {
+    color: #0F7DB5;
+}
+.balansi_artir:hover {
+    border: 1px solid white;
+    background: #0F7DB5;
+    transition: 0.5s;
+}
+.balansi_artir:hover .balansi_artir_text {
+    color:white
+}
+
+
+
+
+/* responsivity starts */
+
+@media screen and (max-width: 900px) {
+    .search {
+        display: none;
+    }
+    .istifadeci_sayi {
+        display: none;
+    }
+    .topbar , .topbar2 {
+        display: flex;
+        flex-direction: row;
+    }
+    .ad_soyad {
+        display: none;
+    }
+}
