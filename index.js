@@ -9,3 +9,8 @@ function toggleMenu(){
     main_dashboard.classList.toggle('active');
     main.classList.toggle('active');
 }
+
+function menuToggle (){
+    const toggleMenu = document.querySelector('.menu');
+    toggleMenu.classList.toggle('active');
+}

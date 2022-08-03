@@ -19,7 +19,7 @@
                 <img src="./img/dashboard.png" alt="">
                 <div  class="dashboard_link"> Dashboard  </div>
             </a>
-            <a href="./profil_hesabi.html" class="dashboard_box highlited_box" >
+            <a href="./profil_hesabi.html" class="dashboard_box" >
                 <img src="./img/istifadeci.png" alt="">
                 <div  class="dashboard_link"> Profil hesabı  </div>
             </a>
@@ -31,7 +31,7 @@
                 <img src="./img/telimatlar.png" alt="">
                 <div  class="dashboard_link"> Təlimatlar  </div>
             </a>
-            <a href="./apellasiya.html" class="dashboard_box" >
+            <a href="./apellasiya.html" class="dashboard_box highlited_box" >
                 <img src="./img/apellasiya.png" alt="">
                 <div  class="dashboard_link"> Apellasiya</div>
             </a>
@@ -51,9 +51,16 @@
               
                 <div class="language">AZ <i class="fa-solid fa-angle-down angle-down"></i></div>
                 <div class="ad_soyad">Ad Soyad</div>
-                <div class="user">
-                    <img src="./img/user.png" alt="">   
-                </div>
+                <div class="action">
+                    <div class="profile"  onclick="menuToggle();">    <img src="./img/user.png"  class="profile1" alt=""> </div>
+                        <div class="menu">
+                            <ul>
+                                <li><img src="./img/profil_hesabi.png" class="drop_img" alt=""><a href="#"> Profil hesabı </a></li>
+                                <li><img src="./img/ana_sehife.png" class="drop_img" alt=""> <a href="#"> Ana səhifə </a></li>
+                                <li><img src="./img/cix.png" class="drop_img" alt=""> <a href="#">Çıx </a></li>
+                            </ul>
+                        </div>
+                    </div>   
                 </div>
            
             </div>
@@ -65,25 +72,25 @@
 <div class="profil_input">
 
                     <div class="ad input_element">
+                        <div>FİN kod</div> <input type="text" class="input_text">
+                    </div>
+                    <div class="input_element">
                         <div>Ad</div> <input type="text" class="input_text">
                     </div>
                     <div class="input_element">
                         <div>Soyad</div> <input type="text" class="input_text">
                     </div>
                     <div class="input_element">
-                        <div>Ata adı</div> <input type="text" class="input_text">
+                        <div>Əlaqə nömrəsi</div> <input type="text" class="input_text">
                     </div>
                     <div class="input_element">
-                        <div>Doğum tarixi</div> <input type="text" class="input_text">
+                        <div>E-mail</div> <input type="email" class="input_text">
                     </div>
                     <div class="input_element">
-                        <div>Cinsi</div> <input type="text" class="input_text">
+                        <div>Mövzu</div> <input type="text" class="input_text">
                     </div>
                     <div class="input_element">
-                        <div>Vətəndaşlıq</div> <input type="text" class="input_text">
-                    </div>
-                    <div class="input_element">
-                        <div>E-mail</div> <textarea name="" class="input_text input_etrafli" cols="30" rows="10"></textarea>
+                        <div>Ətraflı izah</div> <textarea name="" class="input_text input_etrafli" cols="30" rows="10"></textarea>
                     </div>
 
                 </div>
