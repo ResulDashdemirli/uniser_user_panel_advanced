@@ -251,6 +251,7 @@ padding-top: 20px;
     color: white;
 }
 .yadda_saxla {
+    width: 147px;
     background: #2F89B6;
     border-radius: 10px;
     border: 1px solid #2F89B6;
@@ -270,7 +271,7 @@ padding-top: 20px;
     color:#2F89B6;
     background: white;
   }
-
+  
 
   .user
   {
@@ -362,7 +363,7 @@ padding-top: 20px;
     line-height: 20px;
 }
   /* user dropdown ends */
-  
+
 /* responsivity starts */
 
 @media screen and (max-width: 900px) {

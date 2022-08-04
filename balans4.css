@@ -177,11 +177,16 @@ a{
     padding-top: 40px;
 }
 .profil_container{
-height: 616px;
+height: 416px;
 width: 1000px;
 border-radius: 15px;
 border: linear-gradient(0deg, #D9D9D9, #D9D9D9);
 background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
 
 }
 .profil_input {
@@ -199,7 +204,7 @@ padding-top: 20px;
 }
 
 .input_element {
-    margin-top: 20px;
+    margin-top: 8px;
     margin-left: 25px;
 }
 .input_text {
@@ -251,6 +256,7 @@ padding-top: 20px;
     color: white;
 }
 .yadda_saxla {
+    width: 147px;
     background: #2F89B6;
     border-radius: 10px;
     border: 1px solid #2F89B6;
@@ -270,7 +276,7 @@ padding-top: 20px;
     color:#2F89B6;
     background: white;
   }
-
+  
 
   .user
   {
@@ -362,7 +368,30 @@ padding-top: 20px;
     line-height: 20px;
 }
   /* user dropdown ends */
-  
+.odenis_ugurlu {
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+}
+.tesekkur_edirik{   
+font-family: 'Helvetica Neue';
+margin-top: 15px;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.qebz_gonderildi {
+    margin-top: 20px;
+    margin-right: 70px;
+}
+
+
+
 /* responsivity starts */
 
 @media screen and (max-width: 900px) {
