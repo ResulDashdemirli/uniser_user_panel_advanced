@@ -203,16 +203,8 @@ padding-left: 30px;
 padding-top: 20px;
 }
 
-.input_element {
-    margin-top: 8px;
-    margin-left: 25px;
-}
-.input_text {
-    width: 300px;
-    height: 48px;
-    border: 1px solid #C6E2EB;
-    border-radius: 5px;
-}
+
+
 .sifreni_deyis {
     opacity: 80%;
     color: #6880BD;
@@ -389,6 +381,32 @@ text-align: center;
     margin-top: 20px;
     margin-right: 70px;
 }
+.input_text {
+    width: 250px;
+    height: 48px;
+    border: 1px solid #C6E2EB;
+    border-radius: 5px;
+}
+.input_element {
+    display: flex;
+    flex-direction: row;
+}
+.send_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2F89B6;
+    width: 57px;
+    height: 48px;
+}
+
+
+.send_img img{
+    object-fit: contain;
+    width: 25px;
+    height: 25px;
+}
+
 
 
 
