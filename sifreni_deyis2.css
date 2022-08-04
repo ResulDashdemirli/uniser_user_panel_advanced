@@ -177,7 +177,7 @@ a{
     padding-top: 40px;
 }
 .profil_container{
-height: 616px;
+height: 216px;
 width: 1000px;
 border-radius: 15px;
 border: linear-gradient(0deg, #D9D9D9, #D9D9D9);
@@ -198,79 +198,6 @@ letter-spacing: 0em;
 padding-left: 30px;
 padding-top: 20px;
 }
-
-.input_element {
-    margin-top: 20px;
-    margin-left: 25px;
-}
-.input_text {
-    width: 300px;
-    height: 48px;
-    border: 1px solid #C6E2EB;
-    border-radius: 5px;
-}
-.sifreni_deyis {
-    opacity: 80%;
-    color: #6880BD;
-}
-.senedler {
-    font-weight: 700;
-    padding-top: 25px;
-    padding-left: 30px;
-}
-.sened_yukle {
-    padding-left: 30px;
-    padding-top: 20px;
-}
-.fayl_yukle{
-    margin-left: 20px;
-    cursor: pointer;
-    background: white;
-    border: 1px solid #b3e0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    width: 233px;
-    height: 48px;
-    border-radius: 10px;
-}
-.upload{
-    padding-right: 8px;
-}
-.fayl_yukle_text {
-    color: #2F89B6;
-}
-.fayl_yukle:hover {
-    background: #2F89B6;
-    transition: 0.5s;
-}
-.fayl_yukle:hover .fayl_yukle_text {
-    color: white;
-}
-.fayl_yukle:hover .upload {
-    color: white;
-}
-.yadda_saxla {
-    background: #2F89B6;
-    border-radius: 10px;
-    border: 1px solid #2F89B6;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    margin-left: 20px;
-    margin-top: 10px;
-  }
-  .yadda_saxla:hover{
-    color:#2F89B6;
-    background: white;
-  }
 
 
   .user
@@ -364,6 +291,96 @@ padding-top: 20px;
 }
   /* user dropdown ends */
   
+
+
+  #forgot_password{
+    position: relative;
+    margin-top: -70px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    }
+    #hansi_vasite{
+        margin-top: 20px;
+        position: relative;
+        font-family: Helvetica;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+    }
+    .login_section{
+        display: flex;
+        flex-direction: row;
+    }
+    #rectangle_bottom_left {
+        position:relative;
+        width: 585.9px;
+        height: 474.96px;
+        top: 150px;
+    }
+    .login_form{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+    .daxil_ol_btn{
+        width: 350px;
+        border-radius:100% ;
+    }
+    
+    .message_box{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: 290px;
+    height: 88px;
+    border-radius: 9px;
+    border: 1px solid lightblue;
+    }
+    .message_box2{
+        margin-left: 100px;
+    }
+    .phone_number {
+        padding-right: 50px;
+    }
+    .message_box_info {
+        color: black;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        opacity: 70%;
+    } 
+    .message_box_together {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+ /* 4 digit password */
+ .input1 {
+    margin: 0 0.2rem;
+    margin-top: 15px;
+    padding: 0.5rem;
+    border: 2px solid #C6E2EB;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 2rem;
+  }
+  #box_password{
+    position: absolute;
+    margin-top: 60px;
+    }
+
 /* responsivity starts */
 
 @media screen and (max-width: 900px) {
