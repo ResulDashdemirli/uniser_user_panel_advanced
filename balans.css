@@ -423,4 +423,14 @@ background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
     .ad_soyad {
         display: none;
     }
+    .language {
+        display: none;
+    }
+    .balans_container{
+        margin-top: 20px;
+        margin-left: 100px;
+      }
+    .imtahanlarimiz_container {
+        margin-left: 790px;
+    }
 }
