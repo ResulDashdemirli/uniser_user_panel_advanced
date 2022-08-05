@@ -431,6 +431,9 @@ background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
         margin-left: 100px;
       }
     .imtahanlarimiz_container {
-        margin-left: 790px;
+        margin-left: 0px;
+    }
+    .main {
+        width: fit-content;
     }
 }
