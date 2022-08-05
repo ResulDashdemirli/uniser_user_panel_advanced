@@ -286,7 +286,7 @@ padding-top: 20px;
   
   .action 
   {
-      position: fixed;
+      position: absolute;
       top:20px;
       right: 30px;   
   }
@@ -390,4 +390,7 @@ padding-top: 20px;
         .action .menu {
             right: -20px;
         }
+    .profil_container {
+         margin-left: 200px;
+    }
 }

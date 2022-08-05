@@ -161,7 +161,7 @@ a{
 }
 .action 
 {
-    position: fixed;
+    position: absolute;
     top:20px;
     right: 30px;   
 }
@@ -268,4 +268,20 @@ a{
     .language {
         display: none;
     }   
+    .main .topbar
+{
+    height: 100px;
+    display: block;    
+}
+
+ .topbar2 {
+    margin-left: 50px;
+ }
+ 
+ .profile
+{
+    position: absolute;
+    padding-left: 100px;
+}
+  
 }
