@@ -380,4 +380,14 @@ padding-top: 20px;
     .ad_soyad {
         display: none;
     }
+    .language {
+        display: none;
+    }
+    .profil_container{
+        height: 1016px;
+        width: 1000px;
+        }
+        .action .menu {
+            right: -20px;
+        }
 }
