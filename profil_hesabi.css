@@ -400,4 +400,7 @@ padding-top: 20px;
       .main {
         width: 130%;
     }
+    .input_element {
+        width: 100%;
+    }
 }

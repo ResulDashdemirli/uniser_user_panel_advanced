@@ -399,6 +399,6 @@ padding-top: 20px;
         height: fit-content;
     }
     .input_element {
-        width: 50%;
+        width: 100%;
     }
 }
