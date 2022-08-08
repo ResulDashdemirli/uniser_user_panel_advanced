@@ -348,12 +348,12 @@ padding-top: 20px;
     background: #fff;
     width: 200px;
     box-sizing: 0 5px 25px rgba(0,0,0,0.1);
-    opacity: 0;
+    display: none;
 }
 .action .menu.active {
     top: 80px;
     visibility: visible;
-    opacity: 1;
+    display: flex;
 }
 .profile1 {
     cursor: pointer;
@@ -381,13 +381,21 @@ padding-top: 20px;
     .ad_soyad {
         display: none;
     }
+    .language {
+        display: none;
+    }
     .input_etrafli {
         width: auto;
         height: auto;
     }
     .profil_container {
         height: 900px;
-        margin-left: 270px;
+        margin-left: 100px;
     }
-
+    .main {
+        width: 130%;
+    }
+    .profil_main {
+        height: fit-content;
+    }
 }
