@@ -430,4 +430,7 @@ text-align: center;
     .ad_soyad {
         display: none;
     }
+    .language {
+        display: none;
+    }
 }

@@ -380,4 +380,7 @@ padding-top: 20px;
     .ad_soyad {
         display: none;
     }
+    .language {
+        display: none;
+    }   
 }
