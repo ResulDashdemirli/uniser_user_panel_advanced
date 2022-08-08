@@ -432,5 +432,8 @@ text-align: center;
     }
     .language {
         display: none;
+    } 
+    .profil_container {
+        margin-left: 130px;
     }
 }
