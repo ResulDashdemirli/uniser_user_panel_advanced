@@ -398,6 +398,7 @@ padding-top: 20px;
             width: 400px;
             display: flex;
             flex-direction: column;
+            margin-left: 200px;
         }
       .main {
         width: 130%;
