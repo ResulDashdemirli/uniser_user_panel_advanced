@@ -390,7 +390,9 @@ padding-top: 20px;
     }
     .profil_container {
         height: 1010px;
-        margin-left: 100px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
     }
     .main {
         width: 130%;
