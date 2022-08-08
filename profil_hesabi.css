@@ -393,10 +393,12 @@ padding-top: 20px;
         .action .menu {
             right: -20px;
         }
-    .profil_container {
-         margin-left: 200px;
-         height: 1010px;
-    }
+        .profil_container {
+            height: 1010px;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+        }
       .main {
         width: 130%;
     }
