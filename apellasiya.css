@@ -389,7 +389,7 @@ padding-top: 20px;
         height: auto;
     }
     .profil_container {
-        height: 900px;
+        height: 1010px;
         margin-left: 100px;
     }
     .main {
@@ -397,5 +397,8 @@ padding-top: 20px;
     }
     .profil_main {
         height: fit-content;
+    }
+    .input_element {
+        width: 50%;
     }
 }

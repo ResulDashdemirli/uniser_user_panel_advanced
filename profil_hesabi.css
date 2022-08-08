@@ -377,6 +377,9 @@ padding-top: 20px;
         display: flex;
         flex-direction: row;
     }
+    .profil_main{
+        margin-left: -150px;
+    }
     .ad_soyad {
         display: none;
     }
@@ -392,5 +395,9 @@ padding-top: 20px;
         }
     .profil_container {
          margin-left: 200px;
+         height: 1010px;
+    }
+      .main {
+        width: 130%;
     }
 }
